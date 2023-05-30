@@ -36,4 +36,11 @@ To run the AES Encryption/Decryption App locally, follow these steps:
  ```bash
    npm start
  ```
+4. Open your web browser and visit http://localhost:3000 to access the application.
 
+# Usage
+
+- Enter an encryption key and select an image file to encrypt or decrypt.
+- Click the "Encrypt" button to encrypt the selected image file or the "Decrypt" button to decrypt an encrypted image file.
+- The result and any error messages will be displayed below the buttons.
+- The encrypted/decrypted image file will be automatically downloaded to your device.
