@@ -1,5 +1,7 @@
 # AES_picEncrypt (AES Encryption/Decryption App)
 
+A simple React application for performing AES encryption and decryption on image files.
+
 > Deployement : https://shashank-kulkarni9.github.io/AES_picEncrypt/
 
 ## Overview
