@@ -61,7 +61,8 @@ function App() {
   const decrypt = (key, ciphertext) => {
     const keyBytes = CryptoJS.enc.Utf8.parse(key);
     const decrypted = CryptoJS.AES.decrypt(ciphertext, keyBytes, { mode: CryptoJS.mode.ECB });
-    return decrypted.toString(CryptoJS.enc.Utf8);
+    const decryptedData = CryptoJS.enc.Utf8.stringify(decrypted); // Convert decrypted data to string
+    return decryptedData;
   };
 
   const createFileFromData = (data, filename) => {
